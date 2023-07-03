@@ -44,7 +44,7 @@ int main() {
 		case 0:printf ("\nFIN DEL PROGRAMA\n");
 		break;
 		}
-		system("PAUSE");//Pausa la ejecuci髇 del programa.
+		system("PAUSE");//Pausa la ejecuci贸n del programa.
 	}while (opt!=0);
 	
 	return 0;
@@ -80,7 +80,7 @@ short submenu_1(){
 	printf("2 - Mostrar todos.\n");
 	printf("0 - Regresar.\n");
 	do{
-		printf ("Seleccione una opci髇:");
+		printf ("Seleccione una opci贸n:");
 		scanf("%hd",&op);
 	}while(op<0||op>2);
 	return op;
@@ -101,7 +101,7 @@ void submenu(Vector pj){
 			case 0:
 				break;
 		};
-		system("PAUSE");//Pausa la ejecuci髇 del programa.
+		system("PAUSE");//Pausa la ejecuci贸n del programa.
 	}while (opsubmenu1!=0);
 }
 	
@@ -111,7 +111,7 @@ short submenu_E(){
 	printf("2 - Eliminar todos los inactivos.\n");
 	printf("0 - Regresar.\n");
 	do{
-		printf ("Seleccione una opci髇:");
+		printf ("Seleccione una opci贸n:");
 		scanf("%hd",&op);
 	}while(op<0||op>2);
 	return op;
@@ -132,7 +132,7 @@ void submenuE(Vector *pj){
 		case 0:
 			break;
 		};
-		system("PAUSE");//Pausa la ejecuci髇 del programa.
+		system("PAUSE");//Pausa la ejecuci贸n del programa.
 	}while (opsubmenuE!=0);
 }
 
@@ -142,7 +142,7 @@ short submenu_C(){
 	printf("2 - Combate aleatorio. \n");
 	printf("0 - Regresar.\n");
 	do{
-		printf ("Seleccione una opci髇:");
+		printf ("Seleccione una opci贸n:");
 		scanf("%hd",&op);
 	}while(op<0||op>2);
 return op;
@@ -172,6 +172,6 @@ short opsubmenuC;
 		case 0:
 			break;
 		};
-		system("PAUSE");//Pausa la ejecuci髇 del programa.
+		system("PAUSE");//Pausa la ejecuci贸n del programa.
 	}while (opsubmenuC!=0);
 }
